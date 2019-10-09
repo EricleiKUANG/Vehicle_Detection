@@ -1,0 +1,3 @@
+export PYTHONPATH=$PYTHONPATH:/nfs/private/tfmodels/research:/nfs/private/tfmodels/research/slim
+
+python object_detection_writeNPARRAY.py --model_name /nfs/private/tfmodels/research/My_object_detection_Faster_rcnn_resnet50 --path_to_ckpt /nfs/private/tfmodels/research/My_object_detection_Faster_rcnn_resnet50/out/frozen_inference_graph.pb --outputimagefolder /nfs/private/tfmodels/research/My_object_detection_Faster_rcnn_resnet50/testimage/ --path_to_labels /nfs/private/tfmodels/research/My_object_detection_Faster_rcnn_resnet50/data/BDD100k_label_map.pbtxt --numofclasses 10 --path_to_test_image /nfs/project/kuanglei_i/BDD-100k/bdd_100k/images/100k/val --txt_path /nfs/private/tfmodels/research/My_object_detection_Faster_rcnn_resnet50/models/1111

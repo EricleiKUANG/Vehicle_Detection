@@ -1,0 +1,11 @@
+lightheadrcnn resnet101 roi pooling:
+22.62 13.57, 46.30, 42.28, 11.66, 20.01, 14.92, 9.42, 26.61, 0.00, 41.39
+
+
+
+lightheadrcnn resnet101 roi align+lr rate+reso:
+27.73 19.48, 52.90, 46.37, 18.24, 25.46, 22.62, 12.56, 31.84, 0.00, 47.85
+
+
+lightheadrcnn resnet101 roi align+lrrate+reso+softnms:
+27.96 19.66, 53.18, 46.39, 20.48, 25.50, 22.13, 12.18, 31.94, 0.00, 48.13
